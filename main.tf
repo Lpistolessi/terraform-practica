@@ -7,7 +7,7 @@ terraform {
 }
 
 resource "random_pet" "name" {
-  length = 3
+  length = 8
 }
 
 resource "local_file" "saludo" {
